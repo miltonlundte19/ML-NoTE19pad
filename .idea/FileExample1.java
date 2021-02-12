@@ -3,7 +3,6 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-
 /**
  * This is a class
  * Created 2021-02-12
