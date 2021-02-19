@@ -5,14 +5,21 @@ import java.awt.event.ActionListener;
 public class Notpadclone {
 
     private JMenuBar menuBar;
-    private JMenu menu;
-    private JMenuItem menuItem, menuItemNew;
+    private JMenu menu, file, save;
+    private JMenuItem menuItem, menuItemNew, menunew, menuloud, menusave, menusaveass;
 
     private JTextArea textArea1;
     private JPanel panel1;
     private JButton clerbutton;
 
     public Notpadclone() {
+        file = new JMenu("File");
+        save = new JMenu("Save");
+        menunew = new JMenuItem("New");
+        menuloud = new JMenuItem("Loud");
+        menusave = new JMenuItem("Save");
+        menusaveass = new JMenuItem("Save Ass");
+        menunew.addActionListener();
         menuBar = new JMenuBar();
 
         menu = new JMenu("File");
@@ -51,6 +58,5 @@ public class Notpadclone {
         frame.pack();
         frame.setVisible(true);
     }
-
 
 }
