@@ -9,6 +9,7 @@ import java.io.IOException;
  *
  * @author Magnus Silverdal
  */
+//in
 public class FileExample1 {
     public static void main(String[] args)  {
         String filename = "exempel.txt";
